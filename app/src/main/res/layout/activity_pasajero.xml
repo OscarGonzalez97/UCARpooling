@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".PasajeroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="261dp"
+                android:layout_height="144dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/boton_sesionPas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/pasajero" />
+
+            <Button
+                android:id="@+id/boton_editPerfil1"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:onClick="boton_ir_editar_perfil_pasajero"
+                android:text="EDITAR PERFIL"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/boton_buscarViaje"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/boton_sesionPas"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="150dp"
+                android:onClick="boton_cerrar_sesion"
+                android:text="CERRAR SESION"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/boton_editPerfil1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/boton_buscarViaje"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:text="BUSCAR VIAJE"
+                android:textSize="14sp"
+                android:onClick="buscar_viajes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/promedioPasajero"
+                android:layout_width="82dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="165dp"
+                android:layout_marginBottom="54dp"
+                android:textAlignment="center"
+                android:textColor="#ECE4E4"
+                android:textColorHint="#FCFFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/boton_sesionPas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/boton_editPerfil1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
