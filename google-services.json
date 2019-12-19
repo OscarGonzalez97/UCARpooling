@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "220401736404",
+    "firebase_url": "https://ucarpooling-2df6b.firebaseio.com",
+    "project_id": "ucarpooling-2df6b",
+    "storage_bucket": "ucarpooling-2df6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220401736404:android:860f6751345cff3570f941",
+        "android_client_info": {
+          "package_name": "com.example.ucarpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220401736404-smt7fbokoaglgd2afq6put1ou0ggh41r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucarpooling",
+            "certificate_hash": "3bd9a2c85a5435f8dd5b1a31dc75ee8473a70d7d"
+          }
+        },
+        {
+          "client_id": "220401736404-ern59d7009mu8t6uij8uh5mthkcplgfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucarpooling",
+            "certificate_hash": "0820b8d7e5c43fa02f924a84a912057120bff584"
+          }
+        },
+        {
+          "client_id": "220401736404-mi693gmh3q07i8pp5cm1eou63upvihbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL2rwU1hbGqT5GIzCeE_hQM6m2NTGMYaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220401736404-mi693gmh3q07i8pp5cm1eou63upvihbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
